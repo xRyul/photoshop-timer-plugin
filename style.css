@@ -1,0 +1,39 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  /* color: rgb(207, 48, 48); */
+  padding: 0 10px;
+}
+
+#timer {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 2em;
+}
+
+#steps {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 1.222em;
+}
+
+#toolUsage {
+  font-size: 1.05em;
+}
+
+#toolUsage span:hover {
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+
+/* Add some CSS to make the container scrollable */
+#toolUsageContainer, #content {
+  max-height: 300px; 
+  overflow-y: auto;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "open-document-timer",
+  "version": "0.0.1",
+  "description": "Track how long certain document was open and how many steps were taken to edit it.",
+  "author": "xRyul",
+  "license": "Apache-2.0"
+}
